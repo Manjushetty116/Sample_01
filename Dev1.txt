@@ -1,0 +1,7 @@
+  {
+	standlone
+}
+
+{
+	portable
+}
