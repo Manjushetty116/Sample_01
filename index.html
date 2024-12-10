@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M30 Event Management</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <style>
+        #head{
+            color: blueviolet;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="head">
+        <div class="head" id="head">
             <h1 style="color-scheme: rgb(8, 184, 8);">M30 Event Management</h1>
             <img src="./Images/Event management.jpg" alt="Image" width="460" height="150">
             <p>Any event we make it happen!!</p>
@@ -15,10 +22,10 @@
 
         <div class="navbar" id="navbar">
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a class="active" href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about us">About Us</a></li>
-                <li><a href="contact us">Contact Us</a></li>
+                <li style="float: right;"><a class="contactus-link" href="contact us">Contact Us</a></li>
             </ul>
          </div>
     </header>

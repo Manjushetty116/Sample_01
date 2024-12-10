@@ -1,0 +1,43 @@
+h2{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: beige;
+    border: 1px solid;
+}
+
+li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    display: block;
+    color: black;  
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active{
+    background-color: green;
+    color: white;
+}
+
+li a:hover:not(.active){
+    background-color: black;
+    color: white;
+}
+
+.contactus-link{
+    background-color: blue;
+}
